@@ -46,5 +46,7 @@ describe PagesController do
       get "about"
       response.should have_selector("title", :content => "#{@base_title} | About")
     end
+    
+    
   end
 end
